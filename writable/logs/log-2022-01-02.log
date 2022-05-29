@@ -1,0 +1,207 @@
+CRITICAL - 2022-01-02 10:31:59 --> Undefined variable $count1
+#0 C:\xampp\htdocs\webmusholla\app\Views\keuangan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('keuangan/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(23): view('keuangan/index', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Keuangan->index()
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-02 10:32:07 --> Undefined variable $count1
+#0 C:\xampp\htdocs\webmusholla\app\Views\keuangan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('keuangan/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(25): view('keuangan/index', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Keuangan->index()
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-02 10:32:21 --> Undefined variable $count1
+#0 C:\xampp\htdocs\webmusholla\app\Views\keuangan\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('keuangan/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(25): view('keuangan/index', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Keuangan->index()
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-02 10:43:32 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 10:56:27 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 10:57:19 --> Undefined variable $query
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 10:57:49 --> Undefined variable $cons
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 10:57:50 --> Undefined variable $cons
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 11:00:52 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 11:04:56 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 11:07:30 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 11:07:32 --> Undefined variable $conn
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('keuangan')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('keuangan')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 12:31:09 --> preg_match(): Compilation failed: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u at offset 8
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 385)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^user/\\user$#u', '/', NULL)
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 12:32:41 --> preg_match(): Compilation failed: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u at offset 8
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 385)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^user/\\user$#u', '/', NULL)
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 12:32:42 --> preg_match(): Compilation failed: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u at offset 8
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 385)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^user/\\user$#u', '/', NULL)
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-02 14:55:35 --> Undefined variable $masuk
+#0 C:\xampp\htdocs\webmusholla\app\Views\keuangan\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('keuangan/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\app\Controllers\Keuangan.php(24): view('keuangan/index', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Keuangan->index()
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-02 15:33:21 --> Undefined property: App\Controllers\User::$kegiatanModel
+#0 C:\xampp\htdocs\webmusholla\app\Controllers\User.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->kegiatan()
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-02 16:10:06 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keuangan/1', 'before')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-02 16:10:16 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('kegiatan/1', 'before')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-02 16:10:28 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keuangan/create', 'before')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-02 16:31:41 --> Invalid file: user/kegiatan.php
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kegiatan.p...')
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user/kegiatan', Array, true)
+#2 C:\xampp\htdocs\webmusholla\app\Controllers\User.php(29): view('user/kegiatan', Array)
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->kegiatan()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

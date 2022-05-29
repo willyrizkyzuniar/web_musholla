@@ -1,0 +1,119 @@
+CRITICAL - 2021-12-27 11:35:26 --> Invalid file: auth/template/index.php
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/template/i...')
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/template/i...', Array, true)
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\webmusholla\app\Controllers\Home.php(9): view('auth/login')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-27 13:06:10 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2021-12-27 13:06:10 --> fwrite(): Write of 4294967295 bytes failed with errno=22 Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Write...', 'C:\\xampp\\htdocs...', 993)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CLI.php(993): fwrite(Resource id #2, '  8    \e[0;33mS...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '  8    \e[0;33mS...')
+#3 C:\xampp\htdocs\webmusholla\app\Views\errors\cli\error_exception.php(30): CodeIgniter\CLI\CLI::write('  8    \e[0;33mS...')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(123): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(98): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(822): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\webmusholla\spark(63): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2021-12-27 13:06:10 --> Uncaught ErrorException: fwrite(): Write of 4294967295 bytes failed with errno=22 Invalid argument in C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CLI.php:993
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Write...', 'C:\\xampp\\htdocs...', 993)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CLI.php(993): fwrite(Resource id #2, ' 14    \e[0;33mR...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, ' 14    \e[0;33mR...')
+#3 C:\xampp\htdocs\webmusholla\app\Views\errors\cli\error_exception.php(30): CodeIgniter\CLI\CLI::write(' 14    \e[0;33mR...')
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-27 13:07:54 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2021-12-27 14:59:09 --> Class name must be a valid object or a string
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\xampp\htdocs\webmusholla\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-27 15:02:58 --> Class name must be a valid object or a string
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\xampp\htdocs\webmusholla\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\xampp\htdocs\webmusholla\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-27 15:14:50 --> Undefined variable $base_url
+#0 C:\xampp\htdocs\webmusholla\app\Views\templates\sidebar.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('templates/sideb...', NULL, true)
+#4 C:\xampp\htdocs\webmusholla\app\Views\templates\index.php(29): CodeIgniter\View\View->include('templates/sideb...')
+#5 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#9 C:\xampp\htdocs\webmusholla\app\Controllers\User.php(9): view('user/index')
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#11 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-12-27 16:15:41 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-27 16:32:27 --> Undefined variable $title
+#0 C:\xampp\htdocs\webmusholla\app\Views\templates\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 C:\xampp\htdocs\webmusholla\app\Controllers\User.php(9): view('user/index')
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-27 16:34:29 --> Undefined variable $title
+#0 C:\xampp\htdocs\webmusholla\app\Views\templates\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#4 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 C:\xampp\htdocs\webmusholla\app\Controllers\User.php(9): view('user/index')
+#6 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webmusholla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webmusholla\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
